@@ -3,11 +3,11 @@ import AchievementItem from "./reusableComponents/AchievementItem";
 
 const Achievements = () => {
   return (
-    <div className=" w-full my-12 flex justify-center items-center flex-col ">
-      <p className="text-3xl">
+    <div className=" w-full mt-28 mb-12 flex justify-center items-center flex-col ">
+      <h2 className="text-3xl">
         To date, we have been able to achieve these successes with the use of
         gamification tools:
-      </p>
+      </h2>
       <div className="flex justify-around w-full mt-10">
         <AchievementItem statistics={"+450K"} description={"Real Lead"} />
         <AchievementItem
