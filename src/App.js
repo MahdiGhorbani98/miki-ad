@@ -4,6 +4,7 @@ import Banner from "./components/Banner";
 import Achievements from "./components/Achievements";
 import WhatDoWeDo from "./components/WhatDoWeDo";
 import Description from "./components/Description";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Achievements />
       <WhatDoWeDo />
       <Description />
+      <Footer />
     </div>
   );
 }
