@@ -11,10 +11,10 @@ function App() {
     <div>
       <Header />
       <Banner />
-      <Achievements />
+      {/* <Achievements />
       <WhatDoWeDo />
       <Description />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

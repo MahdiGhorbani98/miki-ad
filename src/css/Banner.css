@@ -1,0 +1,30 @@
+.rotationVideo {
+  transform: translate3d(11%, 32.5%, 0) skew(-2deg, -4.5deg)
+    scale3d(0.99, 1.29, 1) perspective(20vh) rotateY(6.8deg) rotateX(0deg)
+    rotateZ(-3.5deg);
+}
+
+@media (max-width: 420px) {
+  .rotationVideo {
+    transform: translate3d(11%, 32.5%, 0) skew(-2deg, -4.5deg)
+      scale3d(0.99, 1.29, 1) perspective(18vh) rotateY(6.8deg) rotateX(0deg)
+      rotateZ(-3.5deg);
+  }
+}
+@media (max-width: 370px) {
+  .rotationVideo {
+    transform: translate3d(11%, 32.5%, 0) skew(-2deg, -4.5deg)
+      scale3d(0.99, 1.29, 1) perspective(15vh) rotateY(6.8deg) rotateX(0deg)
+      rotateZ(-3.5deg);
+  }
+}
+@media (max-width: 320px) {
+  .rotationVideo {
+    transform: translate3d(11%, 32.5%, 0) skew(-2deg, -4.5deg)
+      scale3d(0.99, 1.29, 1) perspective(13vh) rotateY(6.8deg) rotateX(0deg)
+      rotateZ(-3.5deg);
+  }
+}
+.rotationYReverse {
+  transform: rotateY(180deg);
+}
