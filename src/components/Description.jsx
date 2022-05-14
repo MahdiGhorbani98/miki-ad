@@ -12,8 +12,8 @@ const Description = () => {
   };
 
   return (
-    <div className="bg-purple-700  p-24 text-white flex flex-col  items-center">
-      <h2 className="text-4xl text-center mb-16">
+    <div className="bg-purple-700 py-8 sm:p-8 md:p-12 lg:p-24 text-white flex flex-col  items-center">
+      <h2 className="text-2xl md:text-4xl px-2 text-center mb-4 0sm:mb-6 sm:mb-8 mb-16 ">
         A brief description of each of our creative advertising methods
       </h2>
       <ThreePhone direction={"ltr"} ThreePhoneData={ThreePhoneData1} />
