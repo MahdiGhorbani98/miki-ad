@@ -11,8 +11,8 @@ function App() {
     <div>
       <Header />
       <Banner />
-      {/* <Achievements />
-      <WhatDoWeDo />
+      <Achievements />
+      {/*<WhatDoWeDo />
       <Description />
       <Footer /> */}
     </div>
